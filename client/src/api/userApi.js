@@ -1,4 +1,4 @@
-const API_URL = "https://crud-backend-3sbk.onrender.com";
+const API_URL = "https://crud-backend-3sbk.onrender.com/api/v2/users";
 
 // get users with pagination
 export const getUsers = async(page =1 ,limit=5)=>{
